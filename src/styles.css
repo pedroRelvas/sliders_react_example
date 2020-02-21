@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.custom-tooltip{
+  position: absolute;
+  transform: translateX(-50%);
+  max-width: 200px;
+  padding: 0 0.5rem;
+  height: 26px;
+  line-height: 26px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  }
+}
