@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.custom-tooltip{
+.custom-tooltip {
   position: absolute;
   transform: translateX(-50%);
   max-width: 200px;
@@ -17,5 +17,50 @@
   border-radius: 0.25rem;
   box-sizing: border-box;
   font-size: 0.875rem;
-  }
+}
+
+.parent-slider {
+  margin: 0 auto;
+  position: relative;
+  width: 350px;
+  height: 500px;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.left-5 {
+  left: 5%;
+}
+
+.right-5 {
+  right: 5%;
+}
+
+.top {
+  top: 60px;
+}
+
+.left-30 {
+  left: 30%;
+}
+
+.left-70 {
+  left: 70%;
+}
+
+.bar {
+  width: 2px;
+  height: 77px;
+  background: #4cb3ba;
+  position: absolute;
 }
