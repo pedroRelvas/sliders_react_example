@@ -59,8 +59,9 @@
 }
 
 .bar {
-  width: 2px;
-  height: 77px;
+  width: 1px;
+  height: 50px;
+  top: 24px;
   background: #4cb3ba;
   position: absolute;
 }

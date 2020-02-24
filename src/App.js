@@ -6,6 +6,7 @@ import { withStyles, makeStyles } from "@material-ui/core/styles";
 import Slider from "@material-ui/core/Slider";
 import Typography from "@material-ui/core/Typography";
 import Tooltip from "@material-ui/core/Tooltip";
+import { nominalTypeHack } from "prop-types";
 
 export default function App() {
   /*   const [value, setValue] = useState(0);
@@ -81,14 +82,21 @@ export default function App() {
     },
     active: {},
     valueLabel: {
-      left: "calc(-50% + 4px)"
+      color: "#4CB3BA",
+      backgroundColor: "#4CB3BA"
     },
     track: {
-      height: 4,
+      height: 3,
       borderRadius: 4
     },
+    markLabel: {
+      color: "#4CB3BA"
+    },
+    mark: {
+      visibility: "hidden"
+    },
     rail: {
-      height: 4,
+      height: 3,
       borderRadius: 4
     }
   })(Slider);
